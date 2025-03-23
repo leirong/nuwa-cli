@@ -1,5 +1,11 @@
 # @pangu/template-vue-ts
 
+## 1.2.1
+
+### Patch Changes
+
+- update package.json
+
 ## 1.2.0
 
 ### Minor Changes
