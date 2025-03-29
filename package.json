@@ -2,9 +2,12 @@
   "name": "nuwa-cli",
   "version": "1.0.0",
   "main": "index.js",
+  "packageManager": "pnpm@10.7.0",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "ver": "changeset version",
+    "pub": "pnpm i && pnpm build && changeset publish --registry=https://registry.npmjs.com/"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
     "@types/node": "^22.13.11",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-packagejson": "^2.5.10",
+    "turbo": "^2.4.4",
     "typescript": "~5.7.2"
   }
 }
