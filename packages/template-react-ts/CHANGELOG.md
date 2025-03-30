@@ -1,5 +1,11 @@
 # @nuwa-cli/template-react-ts
 
+## 1.3.0
+
+### Minor Changes
+
+- ejs template
+
 ## 1.2.1
 
 ### Patch Changes
