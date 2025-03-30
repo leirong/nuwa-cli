@@ -1,0 +1,5 @@
+{
+  "eslint": {
+    "files": ["eslint.config.js"]
+  }
+}
