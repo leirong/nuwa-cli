@@ -57,12 +57,16 @@ export class NpmPackage {
     return getLatestVersion(this.name)
   }
 
-  async getPackageJson() {
-    await this.prepare()
-    const npmFile = path.resolve(
+  npmFilePath() {
+    return path.resolve(
       this.storeDir,
       `.store/${this.name.replace('/', '+')}@${this.version}/node_modules/${this.name}`,
     )
+  }
+
+  async getPackageJson() {
+    await this.prepare()
+    const npmFile = this.npmFilePath()
     if (fse.existsSync(npmFile)) {
       return fse.readJsonSync(path.resolve(npmFile, 'package.json'))
     }
