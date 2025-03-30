@@ -1,4 +1,4 @@
-# @pangu/template-vue
+# @nuwa-cli/template-vue
 
 ## 1.2.1
 

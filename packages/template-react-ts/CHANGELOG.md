@@ -1,4 +1,4 @@
-# @pangu/template-react-ts
+# @nuwa-cli/template-react-ts
 
 ## 1.2.1
 

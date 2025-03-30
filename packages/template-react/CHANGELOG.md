@@ -1,4 +1,4 @@
-# @pangu/template-react
+# @nuwa-cli/template-react
 
 ## 1.2.1
 
