@@ -5,6 +5,7 @@
   "packageManager": "pnpm@10.7.0",
   "private": true,
   "scripts": {
+    "dev": "turbo run dev",
     "build": "turbo run build",
     "ver": "changeset version",
     "pub": "pnpm i && pnpm build && changeset publish --registry=https://registry.npmjs.com/"
