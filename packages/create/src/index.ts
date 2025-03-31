@@ -110,6 +110,4 @@ async function create() {
   }
 }
 
-create()
-
 export default create

@@ -1,5 +1,11 @@
 # @nuwa-cli/create
 
+## 1.1.1
+
+### Patch Changes
+
+- 删除无用代码
+
 ## 1.1.0
 
 ### Minor Changes
