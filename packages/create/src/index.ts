@@ -6,6 +6,8 @@ import ora from 'ora'
 import fse from 'fs-extra'
 import { glob } from 'glob'
 import ejs from 'ejs'
+import chalk from 'chalk'
+import figlet from 'figlet'
 
 const defaultProjectNameMap: Record<string, string> = {
   '@nuwa-cli/template-react': 'react-demo',
@@ -108,6 +110,14 @@ async function create() {
   for (const file of deleteFiles) {
     fse.removeSync(path.join(targetDir, file))
   }
+
+  const text = figlet.textSync('nuwa-cli', {
+    font: 'Standard',
+  })
+  console.log(chalk.rgb(40, 156, 193).visible(text))
+  console.log(`cd ${chalk.blueBright(projectName)}`)
+  console.log(`${chalk.yellow('pnpm')} install`)
+  console.log(`${chalk.yellow('pnpm')} run dev`)
 }
 
 export default create

@@ -1,5 +1,12 @@
 # @nuwa-cli/cli
 
+## 1.0.6
+
+### Patch Changes
+
+- Updated dependencies
+  - @nuwa-cli/create@1.1.2
+
 ## 1.0.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @nuwa-cli/create
 
+## 1.1.2
+
+### Patch Changes
+
+- 项目创建成功添加艺术字
+
 ## 1.1.1
 
 ### Patch Changes
